@@ -12,6 +12,7 @@ public class Shops {
 	private String email;
 	private String city;
 	private Location location;
+	private int preference; 
 	
 	public Shops() {
 		super();
@@ -73,6 +74,14 @@ public class Shops {
 
 	public void setLocation(Location location) {
 		this.location = location;
+	}
+
+	public int getPreference() {
+		return preference;
+	}
+
+	public void setPreference(int preference) {
+		this.preference = preference;
 	}
 	
 	
